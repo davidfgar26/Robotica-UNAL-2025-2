@@ -3,7 +3,7 @@
 
 | Característica                   | Motoman MH6                                | ABB IRB 140                                 |
 |----------------------------------|---------------------------------------------|----------------------------------------------|
-| Grados de libertad (ejes)        | 8                                           | 6                                             |
+| Grados de libertad (ejes)        | 8(2 Grados adicionales de la banda y soporte Mecanizado)| 6                                             |
 | Carga máxima (payload)           | 6 kg                                        | 6 kg                                         |
 | Alcance horizontal (H-reach)     | ~ 1 422 mm                                  | ~ 810 mm                                     |
 | Repetibilidad                    | ± 0.08 mm                                   | ~ ± 0.03 mm                                  |
@@ -33,9 +33,8 @@
 ## Plano de planta
 ## Código desarrollado en RoboDK
 ## Video de simulación en RoboDK e implementación en robot Motoman MH6
-## Referencias
-- Motoman MH6: Yaskawa brochure “MH6/MH6-10 robots” (datos de alcance, carga, repetibilidad) :contentReference[oaicite:18]{index=18}  
-- Motoman MH6: Robots.com ficha técnica varios datos. :contentReference[oaicite:19]{index=19}  
+## Referencias 
+- [Motoman MH6 — Especificaciones del producto )](https://www.yaskawa.fr/yaskawa.fr/Robots%20d%27occasion/Brochures/Flyer_Robot_MH6-10_E_06.2014.pdf)  
 - [ABB IRB 140 — Especificaciones del producto (3HAC041346-005)](https://library.e.abb.com/public/84e6cb203eef4658839e7cf66e8eaf71/3HAC041346%20PS%20IRB%20140-es.pdf?x-sign=ImRvOsT2Jz0WrduLX2Ku7h+p8psQ+kwuvQhn/UcW7RoyrJUh8FyguShi/V3lJkkI)
 
 
