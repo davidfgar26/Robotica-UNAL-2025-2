@@ -8,7 +8,7 @@
 ## Principales funcionalidades de RoboDK
 ## Comparación RoboDK y RobotStudio
 ## Diagrama de flujo de acciones del robot Motoman MH6
-![Diagrama]<img src="./Diagrama_Flujo.png" width="200">
+!<img src="./Diagrama_Flujo.png" width="200">
 ## Plano de planta
 ## Código desarrollado en RoboDK
 ## Video de simulación en RoboDK e implementación en robot Motoman MH6
