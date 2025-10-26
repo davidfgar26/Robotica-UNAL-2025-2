@@ -1,7 +1,5 @@
 # Laboratorio No. 02 Robótica Industrial - Análisis y Operación del Manipulador Motoman MH6.
 ## Cuadro Comparativo Motoman MH6 y el IRB140
-Una línea en blanco antes de la tabla es importante para que se muestre correctamente.
-# Comparativo Técnico: Motoman MH6 vs ABB IRB 140
 
 | Característica                   | Motoman MH6                                | ABB IRB 140                                 |
 |----------------------------------|---------------------------------------------|----------------------------------------------|
