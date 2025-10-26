@@ -1,22 +1,29 @@
 # Laboratorio No. 02 Robótica Industrial - Análisis y Operación del Manipulador Motoman MH6.
 ## Cuadro Comparativo Motoman MH6 y el IRB140
 Una línea en blanco antes de la tabla es importante para que se muestre correctamente.
+# Comparativo Técnico: Motoman MH6 vs ABB IRB 140
 
-| Característica                       | Motoman MH6      | ABB IRB 140                                   |
-|------------------------------------|------------------------------------------------|----------------------------------------------|
-| Grados de libertad          | 8                           | 6                            |
-| Carga máxima (payload)             | Aproximadamente 6 kg  | Aproximadamente 6 kg                           |
-| Alcance (reach / H-reach)          | ≈ 1.422 m                                     | ≈ 0.810 m                                     |
-| Repetibilidad (posición)           | ±0.08 mm                                       | ≈ ±0.02-0.06 mm      |
-| Velocidades (ejemplos / máximas)   | Ej.: S~140°/s, L~130°/s, U~135°/s, R~270°/s, B~270°/s, T~400°/s (MH6-10) | Velocidades altas para su tamaño; cifras específicas dependen de configuración |
-| Masa / peso del manipulador        | ≈ 130 kg                                       | Variable según versión; ≈ 98-100 kg para algunas variantes |
-| Montaje                            | Piso, invertido, montaje angular/ángulo        | Piso, invertido o pared/suspensión en cualquier ángulo |
-| Protección / versiones especiales  | Variantes estándar para ambientes industriales | Versiones Standard, Foundry, Clean Room, Wash (IP67) |
-| Controlador                        | Usualmente DX100 (o DXM/FS100 en variantes)    | Controladores ABB S4Cplus u otros según versión |
-| Aplicaciones típicas               | Machine tending, manejo de materiales, montaje, soldadura, pick & place | Manejo de materiales, machine tending, empaquetado, soldadura, limpieza/spray |
-| Ventajas destacadas                | Gran alcance relativo, variantes de mayor carga | Compacto, alta agilidad, montaje flexible    |
-| Consideraciones / limitaciones     | Verificar versión (6 kg vs 10 kg), integración del controlador | Alcance menor que MH6; verificar versión concreta |
+| Característica                   | Motoman MH6                                | ABB IRB 140                                 |
+|----------------------------------|---------------------------------------------|----------------------------------------------|
+| Grados de libertad (ejes)        | 6                                           | 6                                             |
+| Carga máxima (payload)           | 6 kg                                        | 6 kg                                         |
+| Alcance horizontal (H-reach)     | ~ 1 422 mm                                  | ~ 810 mm                                     |
+| Repetibilidad                    | ± 0.08 mm                                   | ~ ± 0.03 mm                                  |
+| Velocidades de ejes*             | S≈140°/s, L≈130°/s, U≈135°/s, R≈270°/s, B≈270°/s, T≈400°/s | Alta dinámica; valores específicos según versión |
+| Masa del manipulador             | ~ 130 kg                                    | ~ 98 kg (variante)                           |
+| Montaje                          | Suelo, invertido, ángulo                    | Suelo, invertido, pared/suspensión           |
+| Versiones especiales / protecciones | versátil estándar                          | Foundry/Wash/Clean Room, brazo IP67          |
+| Aplicaciones típicas             | Manipulación de materiales, tendido de máquinas, embalaje, multiuso | Soldadura por arco, ensamblaje, manipulación, empaquetado, limpieza/pulverizado |
 
+\*Valores de velocidad orientativos — verificar ficha técnica para cada eje y versión.
+
+---
+
+### Notas / Consideraciones
+- El modelo Motoman MH6 ofrece un alc­ance mayor (~1 422 mm) comparado con el IRB 140 (~810 mm).  
+- Verificar la versión exacta: MH6 vs MH6-10 pueden tener distinta carga (la MH6-10 admite hasta 10 kg).  
+- Para aplicaciones de alta precisión, la repetibilidad del IRB 140 (~0.03 mm) puede dar ventaja.  
+- Espacio de instalación, montaje y entorno operativo (como ambientes de fundición o limpio) pueden inclinar la elección hacia uno u otro.
 
 ## Descripción de Configuración de los homes del Motoman MH6
 ### Home 1
@@ -33,3 +40,8 @@ Una línea en blanco antes de la tabla es importante para que se muestre correct
 ## Plano de planta
 ## Código desarrollado en RoboDK
 ## Video de simulación en RoboDK e implementación en robot Motoman MH6
+## Referencias
+- Motoman MH6: Yaskawa brochure “MH6/MH6-10 robots” (datos de alcance, carga, repetibilidad) :contentReference[oaicite:18]{index=18}  
+- Motoman MH6: Robots.com ficha técnica varios datos. :contentReference[oaicite:19]{index=19}  
+- ABB IRB 140: ABB brochure “IRB 140” (datos carga, alcance, versiones) :contentReference[oaicite:20]{index=20}  
+- ABB IRB 140: RoboDK/specs lista valores de repetibilidad y peso. :contentReference[oaicite:21]{index=21}  
