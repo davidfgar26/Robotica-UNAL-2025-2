@@ -7,7 +7,8 @@
 ## Niveles de velocidad para movimientos manuales
 ## Principales funcionalidades de RoboDK
 ## Comparación RoboDK y RobotStudio
-## Diagrama de flujo de acciones del robot
+## Diagrama de flujo de acciones del robot Motoman MH6
+![Diagrama](./Diagrama_Flujo.png)
 ## Plano de planta
 ## Código desarrollado en RoboDK
-## Video de simulación en RoboDK e implementación en robot Motman MH6
+## Video de simulación en RoboDK e implementación en robot Motoman MH6
