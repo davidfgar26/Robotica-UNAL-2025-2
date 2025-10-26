@@ -11,5 +11,5 @@ Este repositorio contiene el material desarrollado en la asignatura de Robótica
 Centralizar y dar seguimiento al aprendizaje práctico de la asignatura, manteniendo un registro claro y ordenado de los laboratorios realizados.
 
 ## Presentado Por:
--David Felipe Garcia Lopez
--Nicolas Fernando Davila Peñuela
+- David Felipe Garcia Lopez
+- Nicolas Fernando Davila Peñuela
