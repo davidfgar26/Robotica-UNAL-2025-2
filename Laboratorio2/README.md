@@ -36,5 +36,6 @@
 ## Referencias
 - Motoman MH6: Yaskawa brochure “MH6/MH6-10 robots” (datos de alcance, carga, repetibilidad) :contentReference[oaicite:18]{index=18}  
 - Motoman MH6: Robots.com ficha técnica varios datos. :contentReference[oaicite:19]{index=19}  
-- ABB IRB 140: ABB brochure “IRB 140” (datos carga, alcance, versiones) :contentReference[oaicite:20]{index=20}  
-- ABB IRB 140: RoboDK/specs lista valores de repetibilidad y peso. :contentReference[oaicite:21]{index=21}  
+- [ABB IRB 140 — Especificaciones del producto (3HAC041346-005)](https://library.e.abb.com/public/84e6cb203eef4658839e7cf66e8eaf71/3HAC041346%20PS%20IRB%20140-es.pdf?x-sign=ImRvOsT2Jz0WrduLX2Ku7h+p8psQ+kwuvQhn/UcW7RoyrJUh8FyguShi/V3lJkkI)
+
+
