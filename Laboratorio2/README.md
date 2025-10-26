@@ -3,25 +3,20 @@
 
 | Característica                   | Motoman MH6                                | ABB IRB 140                                 |
 |----------------------------------|---------------------------------------------|----------------------------------------------|
-| Grados de libertad (ejes)        | 6                                           | 6                                             |
+| Grados de libertad (ejes)        | 8                                           | 6                                             |
 | Carga máxima (payload)           | 6 kg                                        | 6 kg                                         |
 | Alcance horizontal (H-reach)     | ~ 1 422 mm                                  | ~ 810 mm                                     |
 | Repetibilidad                    | ± 0.08 mm                                   | ~ ± 0.03 mm                                  |
-| Velocidades de ejes*             | S≈140°/s, L≈130°/s, U≈135°/s, R≈270°/s, B≈270°/s, T≈400°/s | Alta dinámica; valores específicos según versión |
+| Velocidades de ejes*             | S≈140°/s, L≈130°/s, U≈135°/s, R≈270°/s, B≈270°/s, T≈400°/s |  |
 | Masa del manipulador             | ~ 130 kg                                    | ~ 98 kg (variante)                           |
 | Montaje                          | Suelo, invertido, ángulo                    | Suelo, invertido, pared/suspensión           |
 | Versiones especiales / protecciones | versátil estándar                          | Foundry/Wash/Clean Room, brazo IP67          |
 | Aplicaciones típicas             | Manipulación de materiales, tendido de máquinas, embalaje, multiuso | Soldadura por arco, ensamblaje, manipulación, empaquetado, limpieza/pulverizado |
 
-\*Valores de velocidad orientativos — verificar ficha técnica para cada eje y versión.
-
----
-
-### Notas / Consideraciones
-- El modelo Motoman MH6 ofrece un alc­ance mayor (~1 422 mm) comparado con el IRB 140 (~810 mm).  
-- Verificar la versión exacta: MH6 vs MH6-10 pueden tener distinta carga (la MH6-10 admite hasta 10 kg).  
-- Para aplicaciones de alta precisión, la repetibilidad del IRB 140 (~0.03 mm) puede dar ventaja.  
-- Espacio de instalación, montaje y entorno operativo (como ambientes de fundición o limpio) pueden inclinar la elección hacia uno u otro.
+### Conclusiones
+- El modelo Motoman MH6 ofrece un alc­ance mayor  comparado con el IRB 140.  
+- Para aplicaciones de alta precisión, la repetibilidad del IRB 140  es mejor.  
+- Espacio de instalación, montaje y entorno operativo pueden inclinar la elección hacia uno u otro.
 
 ## Descripción de Configuración de los homes del Motoman MH6
 ### Home 1
