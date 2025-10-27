@@ -56,7 +56,7 @@ RoboDK resulta más útil para fines didácticos, proyectos de aprendizaje o pro
 Para relizar la programación del robot se hizo por medio de un archivo en lenguaje python donde se usaron los siguientes comandos para realizar los movimientos del robot
 -MoveL – Movimiento lineal cartesiano, usado para dibujar letras y trazos rectos.
 -MoveJ – Movimiento articular, utilizado para cambios rápidos entre posiciones .
-
+Revisar código Python [ Programa Python - Espiral_Nombres.py](./Espiral_Nombres.py)
 
 ## Video de simulación en RoboDK e implementación en robot Motoman MH6
 ## Referencias 
