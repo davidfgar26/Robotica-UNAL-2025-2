@@ -36,6 +36,9 @@ El Home 1 se usa para guardar el robot y proteger sus componentes cuando está i
 | R   | -0.0017     |
 | B   | 51.7618     |
 | T   | -3.2709     |
+<p align="center">
+<img src="./Diagrama_Flujo.png" width="200">
+</p>
 
 ### Posición Home 2 – Robot Motoman DX100
 
@@ -47,7 +50,9 @@ El Home 1 se usa para guardar el robot y proteger sus componentes cuando está i
 | R   | 0.0000      |
 | B   | -0.1468     |
 | T   | -3.2709     |
-
+<p align="center">
+<img src="./Diagrama_Flujo.png" width="200">
+</p>
 
 
 ## Procedimiento de movimientos Manuales 
