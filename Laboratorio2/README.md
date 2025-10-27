@@ -53,6 +53,8 @@ RoboDK resulta más útil para fines didácticos, proyectos de aprendizaje o pro
 
 ## Plano de planta
 ## Código desarrollado en RoboDK
+Para relizar la programación del robot se hizo por medio de un archivo en lenguaje python donde se usaron los siguientes comandos para realizar los movimientos del robot
+
 ## Video de simulación en RoboDK e implementación en robot Motoman MH6
 ## Referencias 
 - [Motoman MH6 — Especificaciones del producto ](https://www.yaskawa.fr/yaskawa.fr/Robots%20d%27occasion/Brochures/Flyer_Robot_MH6-10_E_06.2014.pdf)  
