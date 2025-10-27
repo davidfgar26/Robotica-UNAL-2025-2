@@ -13,7 +13,8 @@
 | Versiones especiales / protecciones | versátil estándar                          | Foundry/Wash/Clean Room, brazo IP67          |
 | Aplicaciones típicas             | Manipulación de materiales, tendido de máquinas, embalaje, multiuso | Soldadura por arco, ensamblaje, manipulación, empaquetado, limpieza/pulverizado |
 
-***Nota: El robot Motoman en su modelo orignal solo tiene 6 DOF pero en el laboratorio tiene 8 debido a la banda transportadora en la que se encuentra ensamblado y el soporte rotativo para procesos de mecanizado  ***
+**Nota:El robot Motoman en su modelo orignal solo tiene 6 DOF pero en el laboratorio tiene 8 debido a la banda transportadora en la que se encuentra ensamblado y el soporte rotativo para procesos de mecanizado**
+
 ### Conclusiones
 - El modelo Motoman MH6 ofrece un alc­ance mayor  comparado con el IRB 140.  
 - Para aplicaciones de alta precisión, la repetibilidad del IRB 140  es mejor.  
