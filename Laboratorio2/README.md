@@ -37,6 +37,17 @@ El Home 1 se usa para guardar el robot y proteger sus componentes cuando está i
 | B   | 51.7618     |
 | T   | -3.2709     |
 
+### Posición Home 2 – Robot Motoman DX100
+
+| Eje | Ángulo (°) |
+|-----|-------------|
+| S   | 0.0000      |
+| L   | -1.5665     |
+| U   | 1.7135      |
+| R   | 0.0000      |
+| B   | -0.1468     |
+| T   | -3.2709     |
+
 
 
 ## Procedimiento de movimientos Manuales 
