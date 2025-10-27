@@ -80,12 +80,12 @@ Por otro lado, RobotStudio es un software desarrollado por ABB y pensado princip
 RoboDK resulta más útil para fines didácticos, proyectos de aprendizaje o prototipado rápido, mientras que RobotStudio es más adecuado para entornos de producción industrial donde se trabaje con robots ABB y se requiera una simulación precisa del comportamiento real del sistema.
 ## Diagrama de flujo de acciones del robot Motoman MH6
 <p align="center">
-<img src="./Diagrama_Flujo.png" width="600">
+<img src="./Diagrama_Flujo.png" width="200">
 </p>
 
 ## Plano de planta
 <p align="center">
-<img src="./plano planta.png" width="200">
+<img src="./plano planta.png" width="600">
 </p>
 ## Código desarrollado en RoboDK
 Para relizar la programación del robot se hizo por medio de un archivo en lenguaje python donde se usaron los siguientes comandos para realizar los movimientos del robot
