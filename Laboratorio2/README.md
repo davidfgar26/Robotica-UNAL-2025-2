@@ -1,4 +1,5 @@
 # Laboratorio No. 02 Robótica Industrial - Análisis y Operación del Manipulador Motoman MH6.
+El presente laboratorio tiene como propósito analizar y comprender el funcionamiento del manipulador industrial Motoman MH6, explorando sus características técnicas, modos de operación y configuración inicial. A través de la comparación con el robot ABB IRB140, se busca identificar las diferencias en capacidad, alcance, velocidad y aplicaciones, permitiendo así una apreciación más amplia de los diversos tipos de manipuladores empleados en la automatización industrial. Además, se empleará el software RoboDK como herramienta de simulación y control, con el fin de diseñar, ejecutar y validar trayectorias (particularmente una trayectoria polar)tanto en el entorno virtual como en el manipulador físico. De esta manera, el laboratorio contribuye al desarrollo de habilidades prácticas en la programación, simulación y operación de robots industriales, esenciales en el campo de la ingeniería mecatrónica y la robótica aplicada.
 ## Cuadro Comparativo Motoman MH6 y el IRB140
 
 | Característica                   | Motoman MH6                                | ABB IRB 140                                 |
@@ -62,7 +63,7 @@ Para relizar la programación del robot se hizo por medio de un archivo en lengu
 Revisar código Python [ Programa Python - Espiral_Nombres.py](./Espiral_Nombres.py)
 
 ## Video de simulación en RoboDK e implementación en robot Motoman MH6
-[Video de Funcionamiento](./video_funcionamiento.mp4)
+[![Ver video](https://drive.google.com/file/d/1j7KlC3HZIjdndZW-myf2ldI5fKM3wb0O/view?usp=drive_link)](./video_Funcionamiento.mp4)
 ## Referencias 
 - [Motoman MH6 — Especificaciones del producto ](https://www.yaskawa.fr/yaskawa.fr/Robots%20d%27occasion/Brochures/Flyer_Robot_MH6-10_E_06.2014.pdf)  
 - [ABB IRB 140 — Especificaciones del producto (3HAC041346-005)](https://library.e.abb.com/public/84e6cb203eef4658839e7cf66e8eaf71/3HAC041346%20PS%20IRB%20140-es.pdf?x-sign=ImRvOsT2Jz0WrduLX2Ku7h+p8psQ+kwuvQhn/UcW7RoyrJUh8FyguShi/V3lJkkI)
