@@ -28,14 +28,14 @@ Por otro lado, la posición Home 2 coloca al robot en una postura más “natura
 El Home 1 se usa para guardar el robot y proteger sus componentes cuando está inactivo, mientras que el Home 2 se emplea como punto de partida operativo cuando se va a poner en marcha.
 ### Posición Home 1 – Robot Motoman DX100
 
-| Eje | Descripción | Ángulo (°) |
-|-----|--------------|------------|
-| S   | Base (Swing) | 0.0000     |
-| L   | Lower Arm    | 88.6629    |
-| U   | Upper Arm    | -81.0787   |
-| R   | Wrist Roll   | -0.0017    |
-| B   | Wrist Bend   | 51.7618    |
-| T   | Tool Twist   | -3.2709    |
+| Eje | Ángulo (°) |
+|-----|-------------|
+| S   | 0.0000      |
+| L   | 88.6629     |
+| U   | -81.0787    |
+| R   | -0.0017     |
+| B   | 51.7618     |
+| T   | -3.2709     |
 
 
 
