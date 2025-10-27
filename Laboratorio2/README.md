@@ -20,12 +20,31 @@
 - Espacio de instalación, montaje y entorno operativo pueden inclinar la elección hacia uno u otro.
 
 ## Descripción de Configuración de los homes del Motoman MH6
-### Home 1
-### Home 2
+El robot cuenta con dos posiciones de referencia o home: Home 1 y Home 2.
+La posición Home 1 corresponde a una postura retraída del robot, en la que sus ejes se ubican de manera que se reduzcan los esfuerzos y cargas sobre los motores y frenos. Esta posición se utiliza principalmente cuando el robot no va a operar, ya que permite dejarlo en reposo de forma segura, minimizando el desgaste mecánico.
+Por otro lado, la posición Home 2 coloca al robot en una postura más “natural”, similar a una forma de L, que es la que normalmente se usa al iniciar las operaciones o para realizar movimientos de trabajo. Sin embargo, esta posición implica un mayor esfuerzo mecánico sobre los motores y la estructura del robot, por lo que no es recomendable dejarlo detenido en ella durante largos periodos de tiempo.
+El Home 1 se usa para guardar el robot y proteger sus componentes cuando está inactivo, mientras que el Home 2 se emplea como punto de partida operativo cuando se va a poner en marcha.
+
 ## Procedimiento de movimientos Manuales 
+Para mover el robot de forma manual se utiliza el modo TEACH. 
+  Primero hay que activar los servomotores con el botón SERVO ON READY.
+  Luego, se puede cambiar el tipo de movimiento presionando [COORD], lo que permite elegir entre modo articular (JOINT) o cartesiano (BASE, ROBOT o USER).
+En el modo articular cada eje (S, L, U, R, B, T) se mueve por separado, mientras que en el modo cartesiano el robot se desplaza siguiendo los ejes X, Y, Z del TCP, manteniendo su orientación.
+Los movimientos se hacen con las teclas de eje (+ y –) del teach pendant, y es posible realizar tanto traslaciones como rotaciones.
+Antes de moverlo, siempre se debe comprobar que el área alrededor del robot esté libre.
+
 ## Niveles de velocidad para movimientos manuales
+El robot permite ajustar distintos niveles de velocidad, tanto en los movimientos manuales como en los automáticos.
+Cuando se trabaja en modo TEACH, la velocidad de los movimientos manuales se controla directamente con los botones HIGH y SLOW del teach pendant.
+Estos botones cambian la velocidad de respuesta del robot, y el nivel actual se muestra en la parte superior de la pantalla con un ícono en forma de triángulo compuesto por barritas, muy parecido al símbolo de señal de los celulares.
+Al presionar HIGH, aumenta la velocidad (más barras encendidas), y con SLOW, disminuye (menos barras). Esto permite ajustar la velocidad según la precisión o el espacio disponible de trabajo.
+
 ## Principales funcionalidades de RoboDK
+
 ## Comparación RoboDK y RobotStudio
+En general, RoboDK es una herramienta mucho más versátil porque permite trabajar con robots de diferentes marcas como Motoman, Fanuc, KUKA o Universal Robots, entre muchas otras. Esto lo hace ideal para entornos educativos o de investigación, donde se utilizan distintos tipos de robots y se busca una plataforma flexible y fácil de usar. Además, su interfaz es bastante intuitiva y permite generar programas de forma rápida, sin necesidad de conocer a fondo el lenguaje propio de cada marca. También se puede programnar sus trayectorias mediante un codigo de Python.
+Por otro lado, RobotStudio es un software desarrollado por ABB y pensado principalmente para el entorno industrial. Su gran ventaja es que ofrece una simulación muy realista y detallada del funcionamiento del robot, con herramientas avanzadas y prueba de código en lenguaje RAPID. Sin embargo, su uso está limitado exclusivamente a robots ABB, lo que lo hace menos flexible si se trabaja con equipos de otras marcas.
+RoboDK resulta más útil para fines didácticos, proyectos de aprendizaje o prototipado rápido, mientras que RobotStudio es más adecuado para entornos de producción industrial donde se trabaje con robots ABB y se requiera una simulación precisa del comportamiento real del sistema.
 ## Diagrama de flujo de acciones del robot Motoman MH6
 <p align="center">
 <img src="./Diagrama_Flujo.png" width="200">
