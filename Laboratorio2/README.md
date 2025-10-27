@@ -40,7 +40,7 @@ El Home 1 se usa para guardar el robot y proteger sus componentes cuando está i
 <img src="./Home1.jpg" width="500">
 </p>
 
-### Posición Home 2 – Robot Motoman DX100
+### Posición Home 2 – Robot Motoman MH6
 
 | Eje | Ángulo (°) |
 |-----|-------------|
