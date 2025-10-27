@@ -26,7 +26,7 @@ El robot cuenta con dos posiciones de referencia o home: Home 1 y Home 2.
 La posición Home 1 corresponde a una postura retraída del robot, en la que sus ejes se ubican de manera que se reduzcan los esfuerzos y cargas sobre los motores y frenos. Esta posición se utiliza principalmente cuando el robot no va a operar, ya que permite dejarlo en reposo de forma segura, minimizando el desgaste mecánico.
 Por otro lado, la posición Home 2 coloca al robot en una postura más “natural”, similar a una forma de L, que es la que normalmente se usa al iniciar las operaciones o para realizar movimientos de trabajo. Sin embargo, esta posición implica un mayor esfuerzo mecánico sobre los motores y la estructura del robot, por lo que no es recomendable dejarlo detenido en ella durante largos periodos de tiempo.
 El Home 1 se usa para guardar el robot y proteger sus componentes cuando está inactivo, mientras que el Home 2 se emplea como punto de partida operativo cuando se va a poner en marcha.
-### Posición Home 1 – Robot Motoman DX100
+### Posición Home 1 – Robot Motoman MH6
 
 | Eje | Ángulo (°) |
 |-----|-------------|
