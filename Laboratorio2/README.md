@@ -63,8 +63,10 @@ Para relizar la programación del robot se hizo por medio de un archivo en lengu
 Revisar código Python [ Programa Python - Espiral_Nombres.py](./Espiral_Nombres.py)
 
 ## Video de simulación en RoboDK e implementación en robot Motoman MH6
-<video src="./video_Funcionamiento.mp4" width="600" controls>
-</video>
+
+
+[![Ver video](./miniatura.png)](https://drive.google.com/file/d/1j7KlC3HZIjdndZW-myf2ldI5fKM3wb0O/view?usp=drive_link)
+
 
 ## Referencias 
 - [Motoman MH6 — Especificaciones del producto ](https://www.yaskawa.fr/yaskawa.fr/Robots%20d%27occasion/Brochures/Flyer_Robot_MH6-10_E_06.2014.pdf)  
