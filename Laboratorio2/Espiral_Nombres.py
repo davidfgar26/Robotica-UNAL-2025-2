@@ -47,22 +47,22 @@ robot.setRounding(5)  # blending (radio de curvatura)
 # 3) Parámetros de la figura (rosa polar)
 #------------------------------------------------
 num_points = 1000       # Cuántos puntos muestreamos (mayor = más suave)
-a = 0              # Amplitud (300 mm = radio máximo)
-b = 10                  # Parámetro de la rosa (pétalos). Si es impar, habrá k pétalos; si es par, 2k
+a = 0              # radio inicial del espiral
+b = 10                  # Factor de crecimiento del espiral
 z_surface = 0          # Z=0 en el plano del frame
 z_safe = 50            # Altura segura para aproximarse y salir
 
 #------------------------------------------------
 # 4) Movimiento al centro en altura segura
 #------------------------------------------------
-# El centro de la rosa (r=0) corresponde a x=0, y=0
+# El centro del espiral corresponde a x=0, y=0
 robot.MoveJ(transl(0, 0, z_surface + z_safe))
 
 # Bajamos a la "superficie" (Z=0)
 robot.MoveL(transl(0, 0, z_surface))
 
 #------------------------------------------------
-# 5) Dibujar la rosa polar
+# 5) Dibujar el espiral
 #    r = a+b*theta
 #    x = r*cos(theta), y = r*sin(theta)
 #------------------------------------------------
