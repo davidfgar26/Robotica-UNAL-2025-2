@@ -8,7 +8,7 @@
 | Alcance horizontal (H-reach)     | ~ 1 422 mm                                  | ~ 810 mm                                     |
 | Repetibilidad                    | ± 0.08 mm                                   | ~ ± 0.03 mm                                  |
 | Velocidades Maximas de las articulaciones | S≈140°/s, L≈130°/s, U≈135°/s, R≈270°/s, B≈270°/s, T≈400°/s | 1≈200°/s, 2≈200°/s, 3≈260°/s, 4≈360°/s, 5≈360°/s, 6≈450°/s |
-| Masa del manipulador             | ~ 130 kg                                    | ~ 98 kg (variante)                           |
+| Masa del manipulador             | ~ 130 kg                                    | ~ 98 kg                           |
 | Montaje                          | Suelo, invertido, ángulo                    | Suelo, invertido, pared/suspensión           |
 | Versiones especiales / protecciones | versátil estándar                          | Foundry/Wash/Clean Room, brazo IP67          |
 | Aplicaciones típicas             | Manipulación de materiales, tendido de máquinas, embalaje, multiuso | Soldadura por arco, ensamblaje, manipulación, empaquetado, limpieza/pulverizado |
