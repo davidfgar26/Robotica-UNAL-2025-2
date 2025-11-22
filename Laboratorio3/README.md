@@ -27,7 +27,7 @@ El **Home 1** corresponde a la posición de referencia estándar definida por el
 | **J3**   | Desplazamiento Z   | 0°   |
 | **J4**| Rotación Z       | 0°               |
 
-<\ div>
+</div>
  
 <p align="center">
 <img src="./h1.png" width="500">
@@ -42,7 +42,7 @@ El **Home 2** es una posición alternativa que se programo con el fin de que en 
 | **J2**       | Rotación brazo 2   | 0°             |
 | **J3**   | Desplazamiento Z   | 0|
 | **J4**| Rotación Z     | 0°               |
-<\div>
+</div>
 
 <p align="center">
 <img src="./h2.png" width="500">
