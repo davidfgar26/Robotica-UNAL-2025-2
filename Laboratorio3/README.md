@@ -148,6 +148,17 @@ Cuando se ordena un movimiento desde RC+:
 - Validación de ciclos y trayectorias complejas.
 
 ## Diseño del Gripper
+Se Diseño un gripper el cual implementara el mecanismo de tuerca que tenia la ventosa del laboratorio, a su vez se diseño con el fin de que no variara el TCP original del ropot (Punta tornillo), entonces solo tiene un traslado en el eje Z, las partes que componen este gripper es:
+
+ -  Soporte Impreso 3d
+ -  ventosa
+ -  mecanismo boquilla
+ -  ventosa festo
+ -  venturi festo(Generar vacio)
+ -  valvula direccional festo
+ p align="center">
+<img src="./herra.png" width="250">
+</p>
 ## Diagrama de Flujo de la Rutina 
 ```mermaid
 flowchart TD
