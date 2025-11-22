@@ -87,6 +87,7 @@ RoboDK resulta más útil para fines didácticos, proyectos de aprendizaje o pro
 <p align="center">
 <img src="./plano planta.png" width="600">
 </p>
+
 ## Código desarrollado en RoboDK
 Para relizar la programación del robot se hizo por medio de un archivo en lenguaje python donde se usaron los siguientes comandos para realizar los movimientos del robot
 -MoveL – Movimiento lineal cartesiano, usado para dibujar letras y trazos rectos.
