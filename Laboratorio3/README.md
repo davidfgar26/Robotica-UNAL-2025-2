@@ -21,7 +21,7 @@ El desarrollo de este laboratorio tiene como propósito profundizar en el análi
 ## Diagrama de Flujo de la Rutina 
 ## Plano de Planta 
 <p align="center">
-<img src="./pp.png" width="100">
+<img src="./pp.png" width="250">
 </p>
 
 ## Código Desarrollado en EPSONRC+7.0
