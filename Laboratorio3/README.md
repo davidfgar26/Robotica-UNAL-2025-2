@@ -63,7 +63,8 @@ El **Home 2** es una posición alternativa que se programo con el fin de que en 
 Se realizo un codigo completo el cual incluye 3 distintas funciones las cuales ayudan a verificar el funcionamiento de las ventosas, recorrer todas las posciones de la cubeta para confirmar que ninguna se encuentra fuera de rango y la ultima que realiza la rutina de mover los huevos por toda la la cuveta solo usando el movimineto en L que realiza el caballo en un tablero de Ajedrez.
 Se usaron las siguientes funciones
  - Pallet: Creaer una matriz de posiciones simetricas segun las dimensiones
- - Jump : Mover el robot a coordenadas establecidas subiendo hasta z0 y luego al punto seleccionado 
+ - Jump : Mover el robot a coordenadas establecidas subiendo hasta z0 y luego al punto seleccionado
+   
 [ Programa SPEL+](./Main.prg)
     -
 ## Video Simulacion y Comprobación 
