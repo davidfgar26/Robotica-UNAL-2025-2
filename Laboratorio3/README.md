@@ -70,7 +70,7 @@ Estos ajustes proporcionan un control preciso del manipulador y permiten adaptar
 ## Principales Funcionalidades de EPSON RC+ 7.0
 ## Diseño del Gripper 
 ## Diagrama de Flujo de la Rutina 
-
+```mermaid
 flowchart TD
         A(["START"])
         A --> B["Home"]
@@ -89,7 +89,7 @@ flowchart TD
         M --> N(["Mover huevos 1 y 2 posicion Inicial"])
         N --> O["Home"]
         O --> P(["END"])
-        
+ ```       
 ## Plano de Planta 
 <p align="center">
 <img src="./pp.png" width="250">
