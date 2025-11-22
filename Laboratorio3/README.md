@@ -17,8 +17,9 @@ El desarrollo de este laboratorio tiene como propósito profundizar en el análi
 A continuación se presentan las configuraciones de las posiciones Home utilizadas para el manipulador  EPSON T3-401S. Estas posiciones sirven como referencia segura para la inicialización del robot 
 
 El **Home 1** corresponde a la posición de referencia estándar definida por el robot. Desde este punto se realizan los procesos de verificación del sistema y se inicia cualquier programa en EPSON RC+.
-<p align="center">
- 
+
+ <div align="center">
+  
 | Articulación | Tipo de movimiento | Posición Home 1 |
 |--------------|--------------------|------------------|
 | **J1**       | Rotación base      | 0°               |
@@ -26,7 +27,9 @@ El **Home 1** corresponde a la posición de referencia estándar definida por el
 | **J3**   | Desplazamiento Z   | 0°   |
 | **J4**| Rotación Z       | 0°               |
 
-
+<div>
+ 
+<p align="center">
 <img src="./h1.png" width="500">
 </p>
 
