@@ -96,6 +96,64 @@ Cuando se ordena un movimiento desde RC+:
 - El controlador calcula trayectorias y controla las 4 articulaciones simultáneamente.
 
 - El sistema reporta constantemente posición, velocidad y estado de seguridad al software.
+## **Análisis comparativo entre EPSON RC+ 7.0, RoboDK y RobotStudio**
+## 6. Análisis comparativo entre **EPSON RC+ 7.0**, **RoboDK** y **RobotStudio**
+
+### **EPSON RC+ 7.0**
+
+**Ventajas:**
+- Software oficial y totalmente compatible con robots EPSON.
+- Configuración sencilla del manipulador, E/S y parámetros.
+- Programación directa con **SPEL+**, diseñada específicamente para EPSON.
+- Control preciso del robot con comunicación directa al controlador.
+
+**Limitaciones:**
+- Solo funciona con robots EPSON.
+- Simulación 3D limitada comparada con RoboDK o RobotStudio.
+- No permite integración multi-marca.
+
+**Aplicaciones típicas:**
+- Programación y operación de robots EPSON.
+- Configuración de rutinas, E/S, grippers y trayectorias reales.
+- Programas de paletizado
+
+---
+
+### **RoboDK**
+
+**Ventajas:**
+- Compatible con muchas marcas (ABB, Fanuc, KUKA, EPSON, etc.).
+- Simulación 3D avanzada y detección de colisiones.
+- Permite importar modelos CAD.
+- Generación de código offline mediante postprocesadores.
+
+**Limitaciones:**
+- La precisión depende del postprocesador usado.
+- Varias funciones avanzadas requieren licencia.
+- No controla robots EPSON en tiempo real.
+
+**Aplicaciones típicas:**
+- Simulación de celdas robóticas.
+- Verificación y optimización de trayectorias offline.
+- Proyectos educativos o multi-marca.
+
+---
+
+### **RobotStudio (ABB)**
+
+**Ventajas:**
+- Software oficial para robots ABB con simulación altamente realista.
+- Permite crear estaciones virtuales completas.
+- Controlador virtual y programación en **RAPID**.
+
+**Limitaciones:**
+- Solo funciona con robots ABB.
+- Curva de aprendizaje más alta.
+- No es compatible con EPSON ni otros fabricantes.
+
+**Aplicaciones típicas:**
+- Simulación y programación offline de robots ABB.
+- Validación de ciclos y trayectorias complejas.
 
 ## Diseño del Gripper
 ## Diagrama de Flujo de la Rutina 
