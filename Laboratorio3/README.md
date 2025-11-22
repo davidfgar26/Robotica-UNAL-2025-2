@@ -68,7 +68,36 @@ Adicionalmente, desde este mismo panel es posible configurar la potencia de los 
 Estos ajustes proporcionan un control preciso del manipulador y permiten adaptar la velocidad y la fuerza del robot a las condiciones de trabajo, optimizando la seguridad y la precisión en los desplazamientos manuales.
 
 ## Principales Funcionalidades de EPSON RC+ 7.0
-## Diseño del Gripper 
+EPSON RC+ 7.0 es el software encargado de configurar, programar y operar el robot EPSON T3-401S. La comunicación con el manipulador se realiza mediante USB o Ethernet, permitiendo el control directo del robot y el monitoreo de su estado operativo.
+
+Funciones principales
+
+**Programación del robot:**
+Usa el lenguaje SPEL+, permitiendo programar movimientos PTP y CP, ajustar velocidad (Speed), aceleración (Accel) y precisión (Fine).
+
+**Control del movimiento:**
+Desde el software se ejecutan programas en modo AUTO o PROGRAM, y se realizan movimientos manuales mediante la opción Mover y enseñar.
+
+**Configuración de E/S:**
+Permite gestionar las entradas y salidas estándar, remotas y las E/S manuales ubicadas en el brazo para controlar efectores como ventosas o sensores.
+
+**Supervisión del estado del robot:**
+EPSON RC+ 7.0 muestra estados como Error, E-STOP, Running, Ready, además de alarmas y advertencias emitidas por el robot.
+
+**Gestión de parámetros del manipulador:**
+Se pueden ajustar rangos de movimiento, peso e inercia del efector, y parámetros de seguridad y frenado.
+
+**Cómo ejecuta movimientos el robot**
+
+Cuando se ordena un movimiento desde RC+:
+
+- El software envía el comando al controlador integrado.
+
+- El controlador calcula trayectorias y controla las 4 articulaciones simultáneamente.
+
+- El sistema reporta constantemente posición, velocidad y estado de seguridad al software.
+
+## Diseño del Gripper
 ## Diagrama de Flujo de la Rutina 
 ```mermaid
 flowchart TD
