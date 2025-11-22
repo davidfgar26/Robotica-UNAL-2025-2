@@ -27,23 +27,24 @@ El **Home 1** corresponde a la posición de referencia estándar definida por el
 | **J3**   | Desplazamiento Z   | 0°   |
 | **J4**| Rotación Z       | 0°               |
 
-<div>
+<\div>
  
 <p align="center">
 <img src="./h1.png" width="500">
 </p>
 
 El **Home 2** es una posición alternativa que se programo con el fin de que en la articulacion 1 se tenga el mismo rango de movimineto tanto de derecha como izquierda.
-
-<p align="center">
- 
+<div align="center">
+   
 | Articulación | Tipo de movimiento | Posición Home 2 |
 |--------------|--------------------|------------------|
 | **J1**       | Rotación base      | 90°              |
 | **J2**       | Rotación brazo 2   | 0°             |
 | **J3**   | Desplazamiento Z   | 0|
 | **J4**| Rotación Z     | 0°               |
+<\div>
 
+<p align="center">
 <img src="./h2.png" width="500">
 </p>
 
