@@ -61,6 +61,12 @@ También es posible trabajar en modos de referencia cartesiana, permitiendo real
 El panel de control incluye un conjunto de flechas y botones que facilitan los movimientos del robot en el sistema de referencia seleccionado. Además, en esta misma interfaz se ajusta la velocidad de operación, lo cual es fundamental para garantizar un desplazamiento seguro y preciso durante la enseñanza manual.
 
 ## Cambios de velocidad 
+En el menú “Mover y enseñar”, ubicado en el panel principal del controlador, se dispone de una sección específica para ajustar los parámetros de velocidad del robot durante los movimientos manuales. En la parte superior de esta interfaz se encuentran las opciones para seleccionar entre velocidad alta y velocidad baja, permitiendo al operador elegir el nivel de rapidez adecuado según la tarea que se esté ejecutando.
+
+Adicionalmente, desde este mismo panel es posible configurar la potencia de los motores, lo cual resulta fundamental para garantizar la seguridad durante la operación. El uso de potencia baja se recomienda especialmente durante la enseñanza de puntos o aproximaciones a elementos del entorno, ya que reduce el riesgo de movimientos bruscos o colisiones.
+
+Estos ajustes proporcionan un control preciso del manipulador y permiten adaptar la velocidad y la fuerza del robot a las condiciones de trabajo, optimizando la seguridad y la precisión en los desplazamientos manuales.
+
 ## Principales Funcionalidades de EPSON RC+ 7.0
 ## Diseño del Gripper 
 ## Diagrama de Flujo de la Rutina 
