@@ -97,10 +97,8 @@ Cuando se ordena un movimiento desde RC+:
 
 - El sistema reporta constantemente posición, velocidad y estado de seguridad al software.
 ## **Análisis comparativo entre EPSON RC+ 7.0, RoboDK y RobotStudio**
-## 6. Análisis comparativo entre **EPSON RC+ 7.0**, **RoboDK** y **RobotStudio**
 
 ### **EPSON RC+ 7.0**
-
 **Ventajas:**
 - Software oficial y totalmente compatible con robots EPSON.
 - Configuración sencilla del manipulador, E/S y parámetros.
@@ -117,10 +115,7 @@ Cuando se ordena un movimiento desde RC+:
 - Configuración de rutinas, E/S, grippers y trayectorias reales.
 - Programas de paletizado
 
----
-
 ### **RoboDK**
-
 **Ventajas:**
 - Compatible con muchas marcas (ABB, Fanuc, KUKA, EPSON, etc.).
 - Simulación 3D avanzada y detección de colisiones.
@@ -137,10 +132,7 @@ Cuando se ordena un movimiento desde RC+:
 - Verificación y optimización de trayectorias offline.
 - Proyectos educativos o multi-marca.
 
----
-
 ### **RobotStudio (ABB)**
-
 **Ventajas:**
 - Software oficial para robots ABB con simulación altamente realista.
 - Permite crear estaciones virtuales completas.
