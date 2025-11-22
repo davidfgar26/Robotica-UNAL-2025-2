@@ -34,6 +34,7 @@ El **Home 1** corresponde a la posición de referencia estándar definida por el
 </p>
 
 El **Home 2** es una posición alternativa que se programo con el fin de que en la articulacion 1 se tenga el mismo rango de movimineto tanto de derecha como izquierda.
+
 <p align="center">
  
 | Articulación | Tipo de movimiento | Posición Home 2 |
