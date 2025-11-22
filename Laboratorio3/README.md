@@ -65,7 +65,7 @@ Se usaron las siguientes funciones
  - Pallet: Creaer una matriz de posiciones simetricas segun las dimensiones
  - Jump : Mover el robot a coordenadas establecidas subiendo hasta z0 y luego al punto seleccionado
    
-[ Programa SPEL+](./Main.prg)
+[Programa SPEL+](./Main.prg)
     -
 ## Video Simulacion y Comprobación 
 En el video de demostración se evidencia cómo el gripper es capaz de levantar y soltar el huevo de forma adecuada para la práctica, además de presentarse la simulación utilizada para verificar la correcta ejecución de la rutina. Sin embargo, durante la sesión de trabajo no fue posible implementar la trayectoria completa debido al tiempo limitado asignado a cada grupo. Por esta razón, se decidió no utilizar el gripper original del laboratorio y, en su lugar, diseñar uno propio con el fin de restringir el movimiento del TCP únicamente al eje z, evitando desplazamientos en los ejes Z y Y . Como consecuencia de esta decisión, en el video final se observa que el robot realiza un paletizado en diagonal. No obstante, teniendo en cuenta esta situación, la rutina podría ejecutarse sin inconvenientes ajustando correctamente los parámetros del TCP de la herramienta y  de la función pallet, específicamente el punto de origen, el punto en Y y el punto en X.
