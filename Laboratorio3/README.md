@@ -70,6 +70,24 @@ Estos ajustes proporcionan un control preciso del manipulador y permiten adaptar
 ## Principales Funcionalidades de EPSON RC+ 7.0
 ## Diseño del Gripper 
 ## Diagrama de Flujo de la Rutina 
+flowchart TD
+        A(["START"])
+        A --> B["Home"]
+        B --> C["Apagar Ventosa"]
+        C --> D["Ubicar huevo 1"]
+        D --> E["Encender ventosa"]
+        E --> F["Mover Huevo 1 Posicion Siguiente"]
+        F --> G["Apagar Ventosa"]
+        G --> H["Ubicar huevo 2"]
+        H --> I["Encender ventosa"]
+        I --> J["Mover Huevo 2 Posicion Siguiente"]
+        J --> K["Apagar Ventosa"]
+        K --> L{¿i es mayor a 29?}
+        L -->|Sí| M
+        L -->|No| D
+        M --> N(["Mover huevos 1 y 2 posicion Inicial"])
+        N --> O["Home"]
+        O --> P(["END"])
 ## Plano de Planta 
 <p align="center">
 <img src="./pp.png" width="250">
