@@ -22,7 +22,7 @@ El desarrollo de este laboratorio tiene como propósito profundizar en el análi
 ## Diagrama de Flujo de la Rutina 
 ## Plano de Planta 
 <p align="center">
-<img src="./pp.jpg" width="500">
+<img src="./pp.png" width="500">
 </p>
 ## Código Desarrollado en EPSONRC+7.0
 Se realizo un codigo completo el cual incluye 3 distintas funciones las cuales ayudan a verificar el funcionamiento de las ventosas, recorrer todas las posciones de la cubeta para confirmar que ninguna se encuentra fuera de rango y la ultima que realiza la rutina de mover los huevos por toda la la cuveta solo usando el movimineto en L que realiza el caballo en un tablero de Ajedrez.
