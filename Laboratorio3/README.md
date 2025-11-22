@@ -14,7 +14,6 @@ El desarrollo de este laboratorio tiene como propósito profundizar en el análi
 | **Montaje** | Suelo, invertido, ángulo | Suelo, invertido, pared/suspensión | Suelo |
 | **Versiones especiales / protecciones** | Versátil estándar | Foundry / Wash / Clean Room, brazo IP67 | Estándar, grado industrial |
 | **Aplicaciones típicas** | Manipulación de materiales, tendido de máquinas, embalaje, multiuso | Soldadura, ensamblaje, empaquetado, limpieza/pulverizado | Pick and place, electrónica, empaquetado, tareas repetitivas de alta velocidad |
-
 ## Descripción de las configuraciones Home
 ## Procedimiento de Movimientos
 ## Cambios de velocidad 
@@ -22,8 +21,13 @@ El desarrollo de este laboratorio tiene como propósito profundizar en el análi
 ## Diseño del Gripper 
 ## Diagrama de Flujo de la Rutina 
 ## Plano de Planta 
+<p align="center">
+<img src="./pp.jpg" width="500">
+</p>
 ## Código Desarrollado en EPSONRC+7.0
+Se realizo un codigo completo el cual incluye 3 distintas funciones las cuales ayudan a verificar el funcionamiento de las ventosas, recorrer todas las posciones de la cubeta para confirmar que ninguna se encuentra fuera de rango y la ultima que realiza la rutina de mover los huevos por toda la la cuveta solo usando el movimineto en L que realiza el caballo en un tablero de Ajedrez.
+Se usa 
 ## Video Simulacion y Comprobación 
-En el video de demostración se puede ver como el gripper puede levantar y soltar el huevo para la practica, ademas se presenta la simulación realizada
+En el video de demostración se evidencia cómo el gripper es capaz de levantar y soltar el huevo de forma adecuada para la práctica, además de presentarse la simulación utilizada para verificar la correcta ejecución de la rutina. Sin embargo, durante la sesión de trabajo no fue posible implementar la trayectoria completa debido al tiempo limitado asignado a cada grupo. Por esta razón, se decidió no utilizar el gripper original del laboratorio y, en su lugar, diseñar uno propio con el fin de restringir el movimiento del TCP únicamente al eje z, evitando desplazamientos en los ejes Z y Y . Como consecuencia de esta decisión, en el video final se observa que el robot realiza un paletizado en diagonal. No obstante, teniendo en cuenta esta situación, la rutina podría ejecutarse sin inconvenientes ajustando correctamente los parámetros del TCP de la herramienta y  de la función pallet, específicamente el punto de origen, el punto en Y y el punto en X.
 
 
