@@ -14,6 +14,39 @@ El desarrollo de este laboratorio tiene como propósito profundizar en el análi
 | **Versiones especiales / protecciones** | Versátil estándar | Foundry / Wash / Clean Room, brazo IP67 | Estándar, grado industrial |
 | **Aplicaciones típicas** | Manipulación de materiales, tendido de máquinas, embalaje, multiuso | Soldadura, ensamblaje, empaquetado, limpieza/pulverizado | Pick and place, electrónica, empaquetado, tareas repetitivas de alta velocidad |
 ## Descripción de las configuraciones Home
+# 🏠 Configuraciones Home del robot EPSON T3-401S
+
+A continuación se presentan las configuraciones de las posiciones Home utilizadas para el manipulador SCARA EPSON T3-401S. Estas posiciones sirven como referencia segura para la inicialización del robot y para rutinas que requieren puntos de retorno estables.
+
+---
+
+## 🔹 Home 1 – Configuración principal
+
+El **Home 1** corresponde a la posición de referencia estándar definida por el robot. Desde este punto se realizan los procesos de verificación del sistema y se inicia cualquier programa en EPSON RC+.
+
+### Tabla de configuraciones del Home 1
+
+| Articulación | Tipo de movimiento | Posición Home 1 |
+|--------------|--------------------|------------------|
+| **J1**       | Rotación base      | 0°               |
+| **J2**       | Rotación brazo 2   | 0°               |
+| **J3**   | Desplazamiento Z   | Z máximo (arriba)|
+| **J4**| Rotación TCP       | 0°               |
+
+![Home 1](imagenes/home1.png)
+
+## 🔹 Home 2 – Configuración alternativa definida por el usuario
+
+El **Home 2** es una posición alternativa que puede emplearse para minimizar tiempos de desplazamiento, evitar colisiones o facilitar el acceso a rutinas específicas.
+### Tabla de configuraciones del Home 2
+
+| Articulación | Tipo de movimiento | Posición Home 2 |
+|--------------|--------------------|------------------|
+| **J1**       | Rotación base      | 45°              |
+| **J2**       | Rotación brazo 2   | –45°             |
+| **J3**   | Desplazamiento Z   | Z máximo (arriba)|
+| **J4**| Rotación TCP       | 0°               |
+
 ## Procedimiento de Movimientos
 ## Cambios de velocidad 
 ## Principales Funcionalidades de EPSON RC+ 7.0
@@ -26,7 +59,8 @@ El desarrollo de este laboratorio tiene como propósito profundizar en el análi
 
 ## Código Desarrollado en EPSONRC+7.0
 Se realizo un codigo completo el cual incluye 3 distintas funciones las cuales ayudan a verificar el funcionamiento de las ventosas, recorrer todas las posciones de la cubeta para confirmar que ninguna se encuentra fuera de rango y la ultima que realiza la rutina de mover los huevos por toda la la cuveta solo usando el movimineto en L que realiza el caballo en un tablero de Ajedrez.
-Se usa 
+Se usaron las siguientes funciones 
+    -
 ## Video Simulacion y Comprobación 
 En el video de demostración se evidencia cómo el gripper es capaz de levantar y soltar el huevo de forma adecuada para la práctica, además de presentarse la simulación utilizada para verificar la correcta ejecución de la rutina. Sin embargo, durante la sesión de trabajo no fue posible implementar la trayectoria completa debido al tiempo limitado asignado a cada grupo. Por esta razón, se decidió no utilizar el gripper original del laboratorio y, en su lugar, diseñar uno propio con el fin de restringir el movimiento del TCP únicamente al eje z, evitando desplazamientos en los ejes Z y Y . Como consecuencia de esta decisión, en el video final se observa que el robot realiza un paletizado en diagonal. No obstante, teniendo en cuenta esta situación, la rutina podría ejecutarse sin inconvenientes ajustando correctamente los parámetros del TCP de la herramienta y  de la función pallet, específicamente el punto de origen, el punto en Y y el punto en X.
 
