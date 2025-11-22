@@ -50,6 +50,16 @@ El **Home 2** es una posición alternativa que se programo con el fin de que en 
 
 
 ## Procedimiento de Movimientos
+Para comenzar, es necesario acceder al Administrador del Robot y habilitar los motores, asegurándose de seleccionar la opción de potencia baja con el fin de minimizar el riesgo de accidentes durante la operación manual.
+
+Una vez activado el robot, en el panel lateral izquierdo se debe ingresar a la sección “Mover y enseñar”. En este apartado es posible seleccionar el marco de referencia mediante la opción Modo.
+
+Si se elige el modo Articulación, el operador puede desplazar cada eje del robot de manera individual.
+
+También es posible trabajar en modos de referencia cartesiana, permitiendo realizar traslaciones y rotaciones en los ejes X, Y, Z y U.
+
+El panel de control incluye un conjunto de flechas y botones que facilitan los movimientos del robot en el sistema de referencia seleccionado. Además, en esta misma interfaz se ajusta la velocidad de operación, lo cual es fundamental para garantizar un desplazamiento seguro y preciso durante la enseñanza manual.
+
 ## Cambios de velocidad 
 ## Principales Funcionalidades de EPSON RC+ 7.0
 ## Diseño del Gripper 
