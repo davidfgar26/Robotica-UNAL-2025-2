@@ -14,38 +14,32 @@ El desarrollo de este laboratorio tiene como propósito profundizar en el análi
 | **Versiones especiales / protecciones** | Versátil estándar | Foundry / Wash / Clean Room, brazo IP67 | Estándar, grado industrial |
 | **Aplicaciones típicas** | Manipulación de materiales, tendido de máquinas, embalaje, multiuso | Soldadura, ensamblaje, empaquetado, limpieza/pulverizado | Pick and place, electrónica, empaquetado, tareas repetitivas de alta velocidad |
 ## Descripción de las configuraciones Home
-# 🏠 Configuraciones Home del robot EPSON T3-401S
-
-A continuación se presentan las configuraciones de las posiciones Home utilizadas para el manipulador SCARA EPSON T3-401S. Estas posiciones sirven como referencia segura para la inicialización del robot y para rutinas que requieren puntos de retorno estables.
-
----
-
-## 🔹 Home 1 – Configuración principal
+A continuación se presentan las configuraciones de las posiciones Home utilizadas para el manipulador  EPSON T3-401S. Estas posiciones sirven como referencia segura para la inicialización del robot 
 
 El **Home 1** corresponde a la posición de referencia estándar definida por el robot. Desde este punto se realizan los procesos de verificación del sistema y se inicia cualquier programa en EPSON RC+.
-
-### Tabla de configuraciones del Home 1
 
 | Articulación | Tipo de movimiento | Posición Home 1 |
 |--------------|--------------------|------------------|
 | **J1**       | Rotación base      | 0°               |
 | **J2**       | Rotación brazo 2   | 0°               |
-| **J3**   | Desplazamiento Z   | Z máximo (arriba)|
-| **J4**| Rotación TCP       | 0°               |
+| **J3**   | Desplazamiento Z   | 0°   |
+| **J4**| Rotación Z       | 0°               |
 
-![Home 1](imagenes/home1.png)
+<p align="center">
+<img src="./h1.png" width="250">
+</p>
 
-## 🔹 Home 2 – Configuración alternativa definida por el usuario
-
-El **Home 2** es una posición alternativa que puede emplearse para minimizar tiempos de desplazamiento, evitar colisiones o facilitar el acceso a rutinas específicas.
-### Tabla de configuraciones del Home 2
-
+El **Home 2** es una posición alternativa que se programo con el fin de que en la articulacion 1 se tenga el mismo rango de movimineto tanto de derecha como izquierda.
 | Articulación | Tipo de movimiento | Posición Home 2 |
 |--------------|--------------------|------------------|
-| **J1**       | Rotación base      | 45°              |
-| **J2**       | Rotación brazo 2   | –45°             |
-| **J3**   | Desplazamiento Z   | Z máximo (arriba)|
-| **J4**| Rotación TCP       | 0°               |
+| **J1**       | Rotación base      | 90°              |
+| **J2**       | Rotación brazo 2   | 0°             |
+| **J3**   | Desplazamiento Z   | 0|
+| **J4**| Rotación Z     | 0°               |
+<p align="center">
+<img src="./h2.png" width="250">
+</p>
+
 
 ## Procedimiento de Movimientos
 ## Cambios de velocidad 
