@@ -156,9 +156,11 @@ Se Diseño un gripper el cual implementara el mecanismo de tuerca que tenia la v
  -  ventosa festo
  -  venturi festo(Generar vacio)
  -  valvula direccional festo
+ -  
  p align="center">
 <img src="./herra.png" width="250">
 </p>
+
 ## Diagrama de Flujo de la Rutina 
 ```mermaid
 flowchart TD
