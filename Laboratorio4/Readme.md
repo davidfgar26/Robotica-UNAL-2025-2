@@ -91,27 +91,27 @@ Cada letra se define como una secuencia ordenada de puntos, donde cada punto pos
 
 ##### Para dibujar una letra:
 
-Se apaga el lápiz (off = True).
+- Se apaga el lápiz (off = True).
 
-La tortuga se mueve al punto inicial mediante teleportación absoluta.
+- La tortuga se mueve al punto inicial mediante teleportación absoluta.
 
-Se enciende el lápiz con color y grosor específicos.
+- Se enciende el lápiz con color y grosor específicos.
 
-Se traza la figura conectando los puntos en orden.
+- Se traza la figura conectando los puntos en orden.
 
-Se apaga nuevamente el lápiz al finalizar.
+- Se apaga nuevamente el lápiz al finalizar.
 
 #### Funcionamiento del programa
 
 El programa opera en un bucle continuo:
 
-Lee cada tecla presionada.
+- Lee cada tecla presionada.
 
-Si es una flecha → movimiento.
+- Si es una flecha → movimiento.
 
-Si es una letra → ejecuta la función correspondiente.
+- Si es una letra → ejecuta la función correspondiente.
 
-Si es Q/q → finaliza la ejecución.
+- Si es Q/q → finaliza la ejecución.
 
 El nodo permanece activo hasta recibir la orden de cierre.
 
