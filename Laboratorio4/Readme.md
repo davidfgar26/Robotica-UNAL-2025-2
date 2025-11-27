@@ -28,22 +28,24 @@ H4 --> F
 F -->|L| I[draw_L()]
 F -->|N| J[draw_N()]
 F -->|F| K[draw_F()]
-F -->|D| L[draw_D()]
+F -->|D| L1[draw_D()]
 F -->|G| M[draw_G()]
-F -->|P| N[draw_P()]
+F -->|P| N1[draw_P()]
 
 I --> F
 J --> F
 K --> F
-L --> F
+L1 --> F
 M --> F
-N --> F
+N1 --> F
 
 %% --- Salida ---
 F -->|Q| O([Salir])
 O --> P[Destruir nodo]
-P --> Q([rclpy.shutdown()])
-Q --> R([Fin])
+P --> Q1([rclpy.shutdown()])
+Q1 --> R([Fin])
+
+
 ```
 
 ### Código diseñado
