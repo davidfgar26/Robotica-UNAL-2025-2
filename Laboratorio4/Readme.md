@@ -7,28 +7,30 @@ flowchart TD
 
 A([Inicio]) --> B[Inicializar rclpy]
 B --> C[Crear nodo TurtleController]
-C --> D[Esperar servicios:\nTeleportAbsolute / TeleportRelative / SetPen]
-D --> E[Configurar tamaño de letras y posiciones]
+C --> D[Esperar servicios\nTeleportAbs / TeleportRel / SetPen]
+D --> E[Configurar tamaños y posiciones de letras]
 
-E --> F{¿Presiona una tecla?}
+E --> F{¿Tecla presionada?}
 
-F -->|Flechas| G[Detectar secuencia de tecla]
-G --> H{¿Arriba/Abajo/\nIzquierda/Derecha?}
-H -->|Arriba| H1[Llamar move_relative(0.4,0)]
-H -->|Abajo| H2[Llamar move_relative(-0.4,0)]
-H -->|Derecha| H3[Llamar move_relative(0,-0.9)]
-H -->|Izquierda| H4[Llamar move_relative(0,0.9)]
+%% --- Movimiento con flechas ---
+F -->|Flechas| G[Leer comando direccional]
+G --> H{¿Qué flecha?}
+H -->|Arriba| H1[move_relative(0.4,0)]
+H -->|Abajo| H2[move_relative(-0.4,0)]
+H -->|Derecha| H3[move_relative(0,-0.9)]
+H -->|Izquierda| H4[move_relative(0,0.9)]
 H1 --> F
 H2 --> F
 H3 --> F
 H4 --> F
 
-F -->|Letra L| I[Llamar draw_L()]
-F -->|Letra N| J[Llamar draw_N()]
-F -->|Letra F| K[Llamar draw_F()]
-F -->|Letra D| L[Llamar draw_D()]
-F -->|Letra G| M[Llamar draw_G()]
-F -->|Letra P| N[Llamar draw_P()]
+%% --- Letras a dibujar ---
+F -->|L| I[draw_L()]
+F -->|N| J[draw_N()]
+F -->|F| K[draw_F()]
+F -->|D| L[draw_D()]
+F -->|G| M[draw_G()]
+F -->|P| N[draw_P()]
 
 I --> F
 J --> F
@@ -37,11 +39,13 @@ L --> F
 M --> F
 N --> F
 
-F -->|Letra Q| O([Salir del programa])
+%% --- Salida ---
+F -->|Q| O([Salir])
 O --> P[Destruir nodo]
-P --> Q([Shutdown rclpy])
+P --> Q([rclpy.shutdown()])
 Q --> R([Fin])
 ```
+
 ### Código diseñado
 [Programa move_turtle](./move_turtle.py)
 ## Análisis y Resultados
