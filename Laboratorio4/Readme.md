@@ -19,11 +19,11 @@ H --> H1["move_relative(0.4,0)"]
 H --> H2["move_relative(-0.4,0)"]
 H --> H3["move_relative(0,-0.9)"]
 H --> H4["move_relative(0,0.9)"]
-H1 --> F
-H2 --> F
-H3 --> F
-H4 --> F
-
+H1 --> H5
+H2 --> H5
+H3 --> H5
+H4 --> H5
+H5 --> F
 %% --- Letras a dibujar ---
 F --> I["draw_L()"]
 F --> J["draw_N()"]
