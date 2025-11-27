@@ -121,6 +121,6 @@ El nodo permanece activo hasta recibir la orden de cierre.
 - La práctica permitió comprender en profundidad el funcionamiento de ROS 2 y su estructura basada en nodos y servicios.
 - Se logró interactuar de manera directa con Turtlesim, utilizando servicios como métodos primarios de control.
 - La implementación de dibujos mediante secuencias de puntos refuerza el entendimiento de coordenadas y transformaciones dentro del entorno del simulador.
-- El laboratorio fortalece la capacidad de integrar Python con ROS 2, promoviendo prácticas esenciales para el desarrollo robótico moderno.
+- El laboratorio fortaleció la capacidad de integrar Python con ROS 2.
 - El uso manual de lectura del teclado permitió conocer técnicas de bajo nivel para recibir entradas sin librerías externas, aspecto útil en interfaces personalizadas.
 
