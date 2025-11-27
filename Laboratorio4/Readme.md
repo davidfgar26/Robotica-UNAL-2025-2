@@ -5,32 +5,32 @@ El presente informe corresponde al Laboratorio No. 04 , cuyo objetivo principal 
 ```mermaid
 flowchart TD
 
-A([Inicio]) --> B[Inicializar rclpy]
-B --> C[Crear nodo TurtleController]
-C --> D[Esperar servicios\nTeleportAbs / TeleportRel / SetPen]
-D --> E[Configurar tamaños y posiciones de letras]
+A(["Inicio"]) --> B["Inicializar rclpy"]
+B --> C["Crear nodo TurtleController"]
+C --> D["Esperar servicios\nTeleportAbs / TeleportRel / SetPen"]
+D --> E["Configurar tamaños y posiciones de letras"]
 
-E --> F{¿Tecla presionada?}
+E --> F{"¿Tecla presionada?"}
 
 %% --- Movimiento con flechas ---
-F --> G[Leer comando direccional]
-G --> H{¿Qué flecha?}
-H --> H1[move_relative(0.4,0)]
-H --> H2[move_relative(-0.4,0)]
-H --> H3[move_relative(0,-0.9)]
-H --> H4[move_relative(0,0.9)]
+F --> G["Leer comando direccional"]
+G --> H{"¿Qué flecha?"}
+H --> H1["move_relative(0.4,0)"]
+H --> H2["move_relative(-0.4,0)"]
+H --> H3["move_relative(0,-0.9)"]
+H --> H4["move_relative(0,0.9)"]
 H1 --> F
 H2 --> F
 H3 --> F
 H4 --> F
 
 %% --- Letras a dibujar ---
-F --> I[draw_L()]
-F --> J[draw_N()]
-F --> K[draw_F()]
-F --> L[draw_D()]
-F --> M[draw_G()]
-F --> N[draw_P()]
+F --> I["draw_L()"]
+F --> J["draw_N()"]
+F --> K["draw_F()"]
+F --> L["draw_D()"]
+F --> M["draw_G()"]
+F --> N["draw_P()"]
 
 I --> F
 J --> F
@@ -40,10 +40,12 @@ M --> F
 N --> F
 
 %% --- Salida ---
-F -->O([Salir])
-O --> P[Destruir nodo]
-P --> Q([rclpy.shutdown()])
-Q --> R([Fin])
+F --> O(["Salir"])
+O --> P["Destruir nodo"]
+P --> Q(["rclpy.shutdown()"])
+Q --> R(["Fin"])
+
+
 
 ```
 
