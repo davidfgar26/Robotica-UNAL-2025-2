@@ -116,7 +116,7 @@ El programa opera en un bucle continuo:
 El nodo permanece activo hasta recibir la orden de cierre.
 
 ### Video de Demostración
-
+https://drive.google.com/file/d/1RAzWxmgzbnHP03_zB3BYHTilgMoVvNIl/view?usp=sharing
 ## Conclusiones
 - La práctica permitió comprender en profundidad el funcionamiento de ROS 2 y su estructura basada en nodos y servicios.
 - Se logró interactuar de manera directa con Turtlesim, utilizando servicios como métodos primarios de control.
