@@ -7,7 +7,7 @@ flowchart TD
 
 A([Inicio]) --> B[Inicializar rclpy]
 B --> C[Crear nodo TurtleController]
-C --> D[Esperar servicios\nTeleportAbs / TeleportRel / SetPen]
+C --> D[Esperar servicios<br/>TeleportAbs / TeleportRel / SetPen]
 D --> E[Configurar tamaños y posiciones de letras]
 
 E --> F{¿Tecla presionada?}
@@ -26,24 +26,7 @@ H4 --> F
 
 %% --- Letras a dibujar ---
 F -->|L| I[draw_L()]
-F -->|N| J[draw_N()]
-F -->|F| K[draw_F()]
-F -->|D| L1[draw_D()]
-F -->|G| M[draw_G()]
-F -->|P| N1[draw_P()]
-
-I --> F
-J --> F
-K --> F
-L1 --> F
-M --> F
-N1 --> F
-
-%% --- Salida ---
-F -->|Q| O([Salir])
-O --> P[Destruir nodo]
-P --> Q1([rclpy.shutdown()])
-Q1 --> R([Fin])
+F --
 
 
 ```
